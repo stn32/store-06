@@ -1,7 +1,7 @@
 
 // get data
 async function getData() {
-    let result = await fetch("./db.json")
+    let result = await fetch("./db/db.json")
         .then((response) => response.json());
     return result;
 }
