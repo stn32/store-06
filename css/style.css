@@ -1,0 +1,55 @@
+body, div, h1, h2, h3, h4, p, a, b, span, button {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.goods .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.goods .container .goods__item {
+  width: 32%;
+  margin-right: 2%;
+  margin-bottom: 1rem;
+}
+.goods .container .goods__item a img {
+  width: 100%;
+}
+.goods .container .goods__item .goods__tx {
+  padding: 1rem;
+  background: #eee;
+}
+.goods .container .goods__item .goods__tx p {
+  color: #777;
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+.goods .container .goods__item .goods__tx .goods__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.goods .container .goods__item .goods__tx .goods__bottom .goods__btn {
+  display: flex;
+}
+.goods .container .goods__item .goods__tx .goods__bottom .goods__btn button {
+  width: 30px;
+  height: 30px;
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  background: #f43737;
+  color: #fff;
+  cursor: pointer;
+}
+.goods .container .goods__item:nth-child(3n) {
+  margin-right: 0;
+}/*# sourceMappingURL=style.css.map */

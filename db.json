@@ -1,0 +1,33 @@
+
+[
+    {   
+        "id": "g0001",
+        "url": "#",
+        "image": "./img/img1.png",
+        "name": "Hoody Green",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam hic fugiat",
+        "price": 65.00,
+        "availability": "10"
+    },
+    {
+        "id": "g0002",
+        "url": "#",
+        "image": "./img/img2.png",
+        "name": "Cap Pink",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam hic fugiat",
+        "price": 35.00,
+        "availability": "5"
+    },
+    {
+        "id": "g0003",
+        "url": "#",
+        "image": "./img/img3.png",
+        "name": "Cap Black",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam hic fugiat",
+        "price": 25.00,
+        "availability": "10"
+    }
+]
+
+
+
